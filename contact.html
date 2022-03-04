@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<link rel="stylesheet" href="contact.css">
+<body>
+    <div class ="main">
+        <nav class="nav" ">
+            <img class="img" src="img\Copy of Copy of BookMart.png">
+            <ul>
+                <li><a href="main.php">Home</a></li>
+                <li><a href="bookmenu.html">Products</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a class="active" href="#contact.html">Contact</a></li>
+                <li><a href="index.html">Logout</a></li>
+               
+            </ul>
+        </nav>
+    </div>
+    <section>
+       
+      <div class="container">
+          <div class="contactinfo">
+              <div>
+                  <h2>Contact info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="img/location.png"></span>
+                            <span>758 College Road<br> Nashik,Maharashtra <br> 422056 </span>
+                        </li>
+                          <li>  <span><img src="img/mail.png"></span>
+                            <span>contact@bookmart.com</span>
+                        </li>
+                           <li><span><img src="img/call.png"></span>
+                           <span>7586124565 </span>
+                        </li>
+                   </ul>
+              </div>
+          </div>
+        <div class="contact-form">
+            <h2>Send message</h2>
+          <form>
+            <div class="formbox">
+                <div class="inputbox w50">
+                    <input type="text" name="first" required>
+                    <span>First Name</span>
+                </div>
+                <div class="inputbox w50">
+                    <input type="text" name="last" required>
+                    <span>Last Name</span>
+                </div>
+                <div class="inputbox w50">
+                    <input type="email" name="email3" 
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Enter a Valid Email" required>
+                    <span>Email Address</span>
+                </div>
+                <div class="inputbox w50">
+                    <input type="tel" name="tel3"
+                    pattern="^\d{10}$" title="Enter a Valid number"required>
+                    <span>Mobile Number</span>
+                </div>
+                <div class="inputbox 100">
+                    <input type="tel" name="" required>
+                    <span>Write your message here......</span>
+                </div>
+                <div class="inputbox 100">
+                    <input type="submit" value='Send'>
+                    <span>Happy to receive your feedback!!!</span> 
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+</body>
+</html>

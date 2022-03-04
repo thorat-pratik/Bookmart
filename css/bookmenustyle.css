@@ -1,0 +1,27 @@
+* {
+    margin: 15px 15px 10px 10px;
+
+}
+body {
+    background:url(./images/background.png);
+}
+.card {
+    max-width:350px;
+    max-height:400px;
+    margin-left: 10px;
+    box-shadow: 5px 5px #aa8b00;
+  }
+  .text-dark {
+    font-size:x-large;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  .btn {
+      border-radius: 20px;
+      float: right;
+  }
+  

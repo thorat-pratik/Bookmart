@@ -1,0 +1,5 @@
+#ffecca = background color (light orange)
+
+#e66a37 = 
+
+color pallete

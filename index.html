@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+  <title>registration</title>
+  <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+      <div class="img1">
+      <img src="img/Copy of Copy of BookMart.png"></div>
+     
+      <div class="box">
+        <div class="btnbox">
+          <div id="btn"></div>
+           <button type="button "class=toggle-btn onclick="Login()">Log In</button>
+           <button type="button "class=toggle-btn onclick="Register()">Register </button>
+        </div>
+        <form id ="Login" class="input-group" action="bookmenu.html">
+          <input type="text" class="input-field"  name="user1" placeholder="User Id " pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{5,12}$" title=" It should be alpha or alpha numeric ,minimum length should be 5 and maximum 12" required>
+          <input type="text" class="input-field"  name="pass1" placeholder="Password "   pattern=".{6,}" title=" minimum length must be 6"  required>
+          <input type="checkbox" class="checkbox"><span>Remember Password</span>
+          <button type="submit" class="submit-btn">Log In</button>
+
+        </form>
+        <form id ="Register"class="input-group">
+          <input type="text" class="input-field" name="user2" placeholder="User Id "  pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{5,12}$" title=" It should be alpha or alpha numeric ,minimum length should be 5 and maximum 12"  required>
+          <input type="email" class="input-field"  name="email" placeholder="Email Id " 
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Enter a Valid Email" required>
+          <input type="text" class="input-field"  name="mobileno"placeholder="Mobile Number" 
+               pattern="^\d{10}$" title="Enter a Valid number" required>
+          <input type="text" class="input-field"name="pass2" placeholder="Password "
+          pattern=".{6,}"  title="Character length must be minimum 6" required>
+          <input type="checkbox" class="checkbox" required><span>I agree the terms and conditions</span>
+          <button type="submit" class="submit-btn">Register</button>
+
+        </form>
+      </div>
+      <script>
+            var x=document.getElementById("Login");
+            var y=document.getElementById("Register");
+            var z=document.getElementById("btn");
+           function Register(){
+             x.style.left="-400px";
+             y.style.left="50px";
+             z.style.left="192px";}
+             function Login(){
+              x.style.left="50px";
+             y.style.left="450px";
+             z.style.left="0";
+
+             }
+           
+
+      </script>
+
+
+    </body>
+</html>

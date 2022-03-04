@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+}
+section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background: #ffecca;
+}
+.container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+   
+}
+.contactinfo{
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    height: calc(100%-80px);
+    background: #8c9b04;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+}
+.contactinfo h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+ .info{
+    position: relative;
+    margin: 20px 0;
+
+}
+ .info li{
+    position: relative;
+  list-style: none;
+  display: flex;
+  margin: 20px 0;
+  cursor: pointer;
+ 
+}
+ .info li  span:nth-child(1){
+width: 30px;
+min-width: 30px;
+}
+
+.info li span :nth-child(1) img{
+    max-width: 100%;
+
+opacity: 0.5;
+
+}
+section .container .contactinfo .info li  span:nth-child(2){
+   
+    color: #fff;
+  
+    font-weight: 300;
+    margin-left: 10px;
+    }
+    
+ .contact-form{
+        position: absolute;
+        padding: 70px 50px;
+        background:#fff;
+        margin-left: 150px;
+        padding-left: 250px;
+        width: calc(100% - 150px);
+        height: 100%;
+        box-shadow: 0 0 50px 50px rgba(0,0,0,0.2);
+    }
+    .contact-form h2{
+        color: #0f3959;
+        font-size: 24px;
+        font-weight: 500;
+    }
+   .formbox{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .inputbox{
+        position: relative;
+        margin: 0 0 35px 0;
+
+    }
+    .inputbox.w50{
+        width: 47%;
+    }
+    .inputbox.w100{
+        width: 100%;
+    }
+    .inputbox input{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 15px;
+        font-weight: 300;
+        resize: none;
+        color :#333;
+        border: none;
+        border-bottom: 1px solid #777;
+        outline: none;   
+    }
+     .inputbox span{
+        position: relative;
+        left: 0;
+        padding:  5px 0;
+        font-size: 18px;
+        font-weight: 300;
+        transition:0.5s;
+     }
+     .nav{
+        width: 100%;
+        height: 70px;
+        background-color: #0005;
+    }
+    .img{
+        width: 250px;
+        height: 100px;
+        
+        
+     }
+     nav ul{
+        float: right;
+        margin-right:30px ;
+    }
+    ul li{
+        list-style-type: none;
+        display: inline-block;
+        line-height: 55px;
+    }
+    nav ul li a {
+        text-decoration: dashed;
+        color: #fff;
+        padding: 30px;
+    }
+    nav ul li a:hover{
+        background-color: #f1c581;
+        transition: 1s all;
+    }
+    .active{
+        background-color: rgb(151, 241, 151);
+        }
+    

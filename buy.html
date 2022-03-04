@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Buy Book </title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <h2>Fill the details to confirm your order</h2>
+    <form action="order.html">
+        <label>Name:</label><br>
+        <input type="text" class="form-control" name="user3" placeholder="Enter your name" required>
+        <label>Email:</label><br>
+        <input type="text" class="form-control" name="email" placeholder="Enter your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Enter a Valid Email" required>
+        <label>Mobile:</label><br>
+        <input type="text" class="form-control" name="mob" placeholder="Enter your Mobile"  pattern="^\d{10}$" title="Enter a Valid number"  required><br>
+        Please Select Your city:
+        <br>
+        <select>
+            <option value="0" > Pune </option>
+            <option value="1" selected > Nashik </option>
+            <option value="2"> Mumbai </option>
+            <option value="3"> Nagpur </option>
+            <option value="4"> Kolhapur </option>
+        </select required>
+        <br><br>
+       
+        <input type="checkbox"> <Span> Send me info when new book is published </Span>
+        <br>
+        <br>
+        Please Select mode of payment:
+        <br>
+        <select>
+            <option value="1"> Online Payment </option>
+            <option value="2"> Cash On Delivery </option>
+        </select>
+        <br>
+        <br>
+       
+        <a href="order.html"> <button type="submit" class="btn-primary btn">Place order</button> </a>
+        
+
+    </form>
+    
+</div>
+</body>
+<style>
+    body {
+        background:url("img/Blue\ International\ Children\'s\ Book\ Day\ Commercial\ Instagram\ Post\ \(2\).png");
+        height:100%;
+        width:100%
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .btn {
+        border-radius: 25px;
+    }
+    .form-control {
+        width: 80%;
+    }
+    .container-fluid{
+        height: 650px;
+    width: 380px;
+    
+    background-color: rgb(225, 235, 243);
+    position: relative;
+   background-position: center;
+   left :50px;
+   top: 80px;
+  
+   padding: 5px;
+   text-align: center;
+
+    }
+    .form-group{
+        text-align: center;
+        position: relative;
+        color: black;
+    
+    }
+    .form-control{
+        text-align: center;
+        margin-left: 40px;
+    }
+</style>
+</html>

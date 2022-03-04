@@ -1,0 +1,19 @@
+
+* {
+    /* margin: 10; */
+    /* padding: 10; */
+    box-sizing: border-box;
+}
+.card {
+    height: 250px;
+}
+.btn {
+    position: absolute;
+}
+a {
+    float: right;
+}
+.card-img-top {
+    height: 100px;
+    width: 40px;
+}
